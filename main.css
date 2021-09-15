@@ -1,0 +1,57 @@
+/* borders */
+body{
+    background-image: url(Assets/depositphotos_70903753-stock-illustration-red-background.jpg);
+
+}
+form {
+    margin: 5% 24% 75% 24%;
+    border-radius: 25px;
+    padding: 5px 15px 5px 15px;
+    background-color: rgb(161, 161, 161);
+    background-attachment: fixed;
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 20px 25px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 2px solid rgb(255, 0, 0);
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-size: x-large;
+}
+input[type=text], input[type=email] {
+    width: 100%;
+    padding: 20px 25px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 2px solid rgb(255, 0, 0);
+    border-radius: 25px;
+    box-sizing: border-box;
+    font-size: x-large;
+}
+.input_box{
+    padding: 10px 10px 10px 10px;
+}
+.SignUp{
+    text-align: center;
+    font-size: x-large;
+    color: rgb(255, 0, 0);  
+    background-color: rgb(238, 238, 238);
+    border-radius: 25px;
+}
+.input_box{
+    text-align: left;
+    font-size: x-large;
+    border-color: black;
+}
+button {
+    background-color: rgb(255, 0, 0);
+    color: rgb(238, 238, 238);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.8;
+}
